@@ -18,6 +18,7 @@ tars-desktop/database/automation_memory.db
 # Scratchpads y temporales de agentes futuros
 tars-plugins/**/tmp/
 tars-plugins/**/.agent_memory/
+*.txt
 
 # Variables de entorno y credenciales secretas
 .env
