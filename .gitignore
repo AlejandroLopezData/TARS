@@ -1,0 +1,24 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Bases de datos y almacenamiento local (¡CRÍTICO!)
+*.db
+*.db-journal
+*.sqlite3
+tars-desktop/database/automation_memory.db
+
+# Scratchpads y temporales de agentes futuros
+tars-plugins/**/tmp/
+tars-plugins/**/.agent_memory/
+
+# Variables de entorno y credenciales secretas
+.env
+*.secret
